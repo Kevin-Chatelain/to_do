@@ -1,0 +1,92 @@
+* {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+body {
+    margin: 0;
+    padding: 0; 
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    min-width: 40%;
+    min-height: 80vh;
+    background:rgb(230, 194, 118);
+    padding: 3vh;
+    border-radius: 3vh;
+    border-right: 1vh solid rgb(94, 94, 94);
+    border-bottom: 1vh solid rgb(94, 94, 94);
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 75px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    text-shadow: 0.28vw 0vh rgb(94, 94, 94) ;
+}
+
+.divTasks {
+    margin: 2vh;
+    padding: 2vh 1vw;
+    background-color: rgb(246, 246, 250);
+    border-radius: 1vh;
+    font-size: 1.5rem;
+    border-right: 0.5vh solid rgb(94, 94, 94);
+    border-bottom: 0.5vh solid rgb(94, 94, 94);
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    max-height: 4vh;
+
+}
+
+.tasksChecked {
+    background-color: rgb(184, 238, 193);
+
+}
+
+.tasksChecked::before{
+    content: '✔';
+    color: green;
+    margin: 1vw;
+
+
+}
+
+form {
+    margin-top:  10vh;
+    margin-bottom: 5vh;
+    text-align: center;
+
+}
+
+form>h2 {
+    font-size: 1.75rem;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    text-shadow: 0.15vw 0vh rgb(94, 94, 94) ;
+}
+
+
+form>input {
+    margin-top: 1vh;
+    padding: 1.25vh 3vw;
+    border-radius: 0.75vh;
+    border-right: 0.5vh solid rgb(94, 94, 94);
+    border-bottom: 0.5vh solid rgb(94, 94, 94);
+    background: rgb(246, 246, 250);
+    border-top: none;
+    border-left: none;
+    font-size: 1.5rem;
+}
+
+
+
+
